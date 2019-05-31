@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+section,
+aside,
+footer {
+  padding: 1rem;
+}
+
+header h1 {
+  margin-top: 0px;
+}
+
+header {
+  background: green;
+}
+
+section {
+  background: lime;
+  float: left;
+  width: 60%;
+  margin: 0;
+  padding: 20px;
+}
+
+aside {
+  background: yellow;
+  width: 28%;
+  float: right;
+  overflow: auto;
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+  background: orange;
+  clear: both;
+}
