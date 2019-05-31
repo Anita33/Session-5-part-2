@@ -42,3 +42,9 @@ footer {
   background: orange;
   clear: both;
 }
+
+.image {
+  width: 50px;
+  height: auto;
+  float: right;
+}
